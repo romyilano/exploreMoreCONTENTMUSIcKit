@@ -32,7 +32,7 @@ struct MiniPlayer: View {
             }
             .background {
                 RoundedRectangle(cornerRadius: 20, style: .continuous)
-                    .fill(.white)
+                    .fill(Color(UIColor.systemBackground))
                     .padding([.leading, .trailing])
                     .standardShadow()
             }

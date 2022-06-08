@@ -69,7 +69,7 @@ struct ContentView: View {
         .frame(maxWidth: .infinity, alignment: .leading)
         .background {
             RoundedRectangle(cornerRadius: 25, style: .continuous)
-                .fill(.white)
+                .fill(Color(UIColor.systemBackground))
                 .standardShadow()
         }
         .padding([.leading, .trailing], 24)

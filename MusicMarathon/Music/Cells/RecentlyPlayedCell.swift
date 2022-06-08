@@ -52,7 +52,7 @@ struct RecentlyPlayedCellStyle: ViewModifier {
             .frame(maxWidth: .infinity, alignment: .leading)
             .background {
                 RoundedRectangle(cornerRadius: 12, style: .continuous)
-                    .fill(.white)
+                    .fill(Color(UIColor.systemBackground))
                     .standardShadow()
             }
     }

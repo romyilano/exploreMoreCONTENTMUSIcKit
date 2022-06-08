@@ -35,7 +35,7 @@ struct PastWorkoutsGraph: View {
             .padding(.vertical, Self.verticalSpacing)
             .background {
                 RoundedRectangle(cornerRadius: Self.backgroundRadius, style: .continuous)
-                    .fill(.white)
+                    .fill(Color(UIColor.systemBackground))
                     .standardShadow()
             }
         }

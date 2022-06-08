@@ -32,7 +32,7 @@ struct WorkoutView: View {
             WorkoutDataView(viewModel: viewModel)
                 .background {
                     RoundedRectangle(cornerRadius: Self.backgroundCornerRadius, style: .continuous)
-                        .fill(.white)
+                        .fill(Color(UIColor.systemBackground))
                         .padding([.leading, .trailing])
                         .standardShadow()
                 }
